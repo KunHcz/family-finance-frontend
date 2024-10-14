@@ -1,46 +1,23 @@
-# Getting Started with Create React App
+# 家庭财务管理
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## 目的
 
-## Available Scripts
+收支管理是一个家庭日常生活中不可缺少的一部分，也是财务管理的重要组成部分。开发一个家庭财务管理系统，实现家庭财务信息的自动化。
 
-In the project directory, you can run:
+## 系统主要功能
 
-### `npm start`
+1. **登陆管理**：可以选一名家庭成员做管理员，普通用户只能查看自己的收支信息。
+2. **家庭成员管理**：成员的信息包括姓名、性别、出生日期、年龄、身高、体重。
+3. **收支项目管理**：可以设置收支项目，修改或者删除。收支项目要求分为两层，比如“车辆维护-保养费”；任意一层次都可作为收支项目记账，用户在不清楚支出是否属于“保养费”的时候，可以选择大类“车辆维护”作为支出项。
+4. **家庭成员收支输出**：显示每个成员每月的收支情况（时间、收支种类、金额、经手人）。
+5. **退出管理**：系统功能图如下图。
+   ![系统功能图](src/assets/functions.png)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## 设计要求
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+1. 系统具有的功能应尽量全面。
+2. 采用 GUI（图形用户接口）方式实现。
+3. 使用类、向量（参看文献 VC 的 STL）。请分多次回答，要求代码简洁，最佳实践，每次回答结束后待我回复“继续”后继续回答。
+4. GUI 版的关键技术：消息机制、窗口类、对话框与控件、菜单。
+5. 数据存储可用文件或数据库任选。
+6. 可以根据自己的了解定义收支种类：生化用品消费、工资、奖金、饮食消费。

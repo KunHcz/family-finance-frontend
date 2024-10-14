@@ -1,0 +1,11 @@
+{
+  "welcome": "欢迎来到仪表板",
+  "section1": {
+    "title": "部分 1",
+    "content": "这是部分 1 的内容。"
+  },
+  "section2": {
+    "title": "部分 2",
+    "content": "这是部分 2 的内容。"
+  }
+}

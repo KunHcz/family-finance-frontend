@@ -1,0 +1,16 @@
+{
+  "project": "家庭财务管理系统",
+  "description": "-------by huangkun-------",
+  "title": "登录",
+  "username": "用户名",
+  "password": "密码",
+  "login": "登录",
+  "register": "注册",
+  "forget": "忘记密码",
+  "usernamePlaceholder": "请输入用户名",
+  "passwordPlaceholder": "请输入密码",
+  "usernameError": "请输入用户名",
+  "passwordError": "请输入密码",
+  "loginError": "用户名或密码错误",
+  "loginSuccess": "登录成功"
+}
