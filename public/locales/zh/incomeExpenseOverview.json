@@ -1,0 +1,20 @@
+{
+  "title": "收支总览",
+  "description": "在此页面查看每个成员的月收入和支出。",
+  "totalIncome": "总收入",
+  "totalExpense": "总支出",
+  "netIncome": "净收入",
+  "incomes": "收入",
+  "expenses": "支出",
+  "edit": "编辑",
+  "delete": "删除",
+  "editIncome": "编辑收入",
+  "editExpense": "编辑支出",
+  "category": "类别",
+  "subCategory": "子类别",
+  "descriptionLabel": "描述",
+  "amount": "金额",
+  "date": "日期",
+  "update": "更新",
+  "cancel": "取消"
+}

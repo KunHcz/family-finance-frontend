@@ -1,0 +1,98 @@
+.family-manage-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.family-manage-header {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.family-manage-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.family-manage-form label {
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.family-manage-form input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.family-manage-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.family-manage-form button:hover {
+  background-color: #0056b3;
+}
+
+.family-manage-list {
+  list-style: none;
+  padding: 0;
+}
+
+.family-manage-list li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.family-manage-list .member-info {
+  flex-grow: 1;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.family-manage-list .member-info span {
+  background-color: #e9ecef;
+  padding: 5px 10px;
+  border-radius: 4px;
+}
+
+.family-manage-list .member-info .member-username {
+  font-weight: bold;
+}
+
+.family-manage-list .member-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.family-manage-list button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.family-manage-list button.edit {
+  background-color: #28a745;
+}
+
+.family-manage-list button:hover {
+  background-color: #c82333;
+}
+
+.family-manage-list button.edit:hover {
+  background-color: #218838;
+}

@@ -1,11 +1,6 @@
 {
-  "welcome": "Welcome to the Dashboard",
-  "section1": {
-    "title": "Section 1",
-    "content": "This is the content of section 1."
-  },
-  "section2": {
-    "title": "Section 2",
-    "content": "This is the content of section 2."
-  }
+  "title": "Family Financial Management Dashboard",
+  "family-manage": "Family Management",
+  "income-expense-manage": "Income and Expense Management",
+  "income-expense-overview": "Income and Expense Overview"
 }

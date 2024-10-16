@@ -1,0 +1,20 @@
+{
+  "title": "Income and Expense Overview",
+  "description": "View monthly income and expenses for each member here.",
+  "totalIncome": "Total Income",
+  "totalExpense": "Total Expense",
+  "netIncome": "Net Income",
+  "incomes": "Incomes",
+  "expenses": "Expenses",
+  "edit": "Edit",
+  "delete": "Delete",
+  "editIncome": "Edit Income",
+  "editExpense": "Edit Expense",
+  "category": "Category",
+  "subCategory": "SubCategory",
+  "descriptionLabel": "Description",
+  "amount": "Amount",
+  "date": "Date",
+  "update": "Update",
+  "cancel": "Cancel"
+}

@@ -1,0 +1,18 @@
+{
+  "title": "Income and Expense Management",
+  "description": "Manage income and expense items here.",
+  "type": "Type",
+  "income": "Income",
+  "expense": "Expense",
+  "category": "Category",
+  "subCategory": "SubCategory",
+  "descriptionLabel": "Description",
+  "amount": "Amount",
+  "date": "Date",
+  "addItem": "Add Item",
+  "updateItem": "Update Item",
+  "incomes": "Incomes",
+  "expenses": "Expenses",
+  "edit": "Edit",
+  "delete": "Delete"
+}

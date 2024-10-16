@@ -1,0 +1,156 @@
+/* src/containers/IncomeExpenseOverview/IncomeExpenseOverview.scss */
+
+.income-expense-overview-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.income-expense-overview-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.income-expense-overview-container p {
+  margin-bottom: 20px;
+}
+
+.summary {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 20px;
+}
+
+.summary-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  flex: 1;
+  margin: 0 10px;
+}
+
+.summary-item h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.summary-item p {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.details {
+  margin-top: 20px;
+}
+
+.details h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.details h4 {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+
+.details ul {
+  list-style: none;
+  padding: 0;
+}
+
+.details li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.details li span {
+  flex: 1;
+  text-align: center;
+}
+
+.details li .delete-button {
+  padding: 5px 10px;
+  background-color: #dc3545;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.details li .delete-button:hover {
+  background-color: #c82333;
+}
+
+.details li .edit-button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.details li .edit-button:hover {
+  background-color: #0056b3;
+}
+
+.details li .actions {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-form {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.edit-form h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.edit-form label {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 10px;
+}
+
+.edit-form input,
+.edit-form select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.edit-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.edit-form button:hover {
+  background-color: #0056b3;
+}
+
+.edit-form button[type="button"] {
+  background-color: #6c757d;
+}
+
+.edit-form button[type="button"]:hover {
+  background-color: #5a6268;
+}

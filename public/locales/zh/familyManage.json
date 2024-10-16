@@ -1,0 +1,15 @@
+{
+  "title": "家庭管理",
+  "description": "您可以在此页面查看家庭成员的信息，也可以添加、编辑或删除家庭成员。",
+  "edit": "编辑",
+  "delete": "删除",
+  "add": "添加成员",
+  "username": "用户名",
+  "password": "密码",
+  "gender": "性别",
+  "birthDate": "出生日期",
+  "age": "年龄",
+  "height": "身高",
+  "weight": "体重",
+  "yearsOld": "岁"
+}

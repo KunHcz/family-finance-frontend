@@ -1,0 +1,15 @@
+{
+  "title": "Family Management",
+  "description": "You can view family member information on this page, as well as add, edit, or delete family members.",
+  "edit": "Edit",
+  "delete": "Delete",
+  "add": "Add Member",
+  "username": "Username",
+  "password": "Password",
+  "gender": "Gender",
+  "birthDate": "Birth Date",
+  "age": "Age",
+  "height": "Height",
+  "weight": "Weight",
+  "yearsOld": "years old"
+}

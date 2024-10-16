@@ -1,0 +1,113 @@
+.income-expense-manage-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.income-expense-manage-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.income-expense-manage-container p {
+  margin-bottom: 20px;
+}
+
+.income-expense-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.income-expense-form label {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+}
+
+.income-expense-form input,
+.income-expense-form select {
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.income-expense-form button {
+  padding: 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.income-expense-form button:hover {
+  background-color: #0056b3;
+}
+
+.income-section,
+.expense-section {
+  margin-bottom: 40px;
+}
+
+.income-section h3,
+.expense-section h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.income-section ul,
+.expense-section ul {
+  list-style: none;
+  padding: 0;
+}
+
+.income-section li,
+.expense-section li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.income-info,
+.expense-info {
+  flex-grow: 1;
+  display: flex;
+  gap: 10px;
+}
+
+.income-actions,
+.expense-actions {
+  display: flex;
+  gap: 10px;
+}
+
+.edit-button {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #0056b3;
+  }
+}
+
+.delete-button {
+  padding: 5px 10px;
+  background-color: #ff1900;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+
+  &:hover {
+    background-color: #cc0000;
+  }
+}

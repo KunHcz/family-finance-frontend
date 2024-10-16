@@ -1,11 +1,6 @@
 {
-  "welcome": "欢迎来到仪表板",
-  "section1": {
-    "title": "部分 1",
-    "content": "这是部分 1 的内容。"
-  },
-  "section2": {
-    "title": "部分 2",
-    "content": "这是部分 2 的内容。"
-  }
+  "title": "家庭财务管理仪表盘",
+  "family-manage": "家庭管理",
+  "income-expense-manage": "收支管理",
+  "income-expense-overview": "收支概览"
 }

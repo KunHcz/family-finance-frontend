@@ -1,8 +1,15 @@
 import { configureStore } from "@reduxjs/toolkit";
+import userReducer from "./slices/user";
+import membersReducer from "./slices/members";
+import incomesReducer from "./slices/income";
+import expensesReducer from "./slices/expense";
 
 const store = configureStore({
   reducer: {
-    // Add your reducers here
+    user: userReducer,
+    members: membersReducer,
+    incomes: incomesReducer,
+    expenses: expensesReducer,
   },
 });
 

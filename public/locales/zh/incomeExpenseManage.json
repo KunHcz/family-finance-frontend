@@ -1,0 +1,18 @@
+{
+  "title": "收支管理",
+  "description": "在此页面管理收入和支出项目。",
+  "type": "类型",
+  "income": "收入",
+  "expense": "支出",
+  "category": "类别",
+  "subCategory": "子类别",
+  "descriptionLabel": "描述",
+  "amount": "金额",
+  "date": "日期",
+  "addItem": "添加项目",
+  "updateItem": "更新项目",
+  "incomes": "收入",
+  "expenses": "支出",
+  "edit": "编辑",
+  "delete": "删除"
+}
